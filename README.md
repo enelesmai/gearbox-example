@@ -1,21 +1,22 @@
-# FSN Gearbox Example
+# FSM Gearbox Example
 
 > An example of Gearbox FSM usage.
 
 ![screenshot](./app_screenshot.png)
 
-Additional description about the project and its features.
+  > Gearbox is a functional state machine with an easy-to-use API, inspired by both Fsm and Machinery
+
+* https://github.com/edisonywh/gearbox
+
+Please, check tests for more details!
+
+The goal is to provide a fully working example based on docs and test from the library.
+
+The implementation is just for demonstration purpose without intention to be the only way of library usage.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- Elixir
 
 ## Getting Started
 
@@ -41,11 +42,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Selene Flores**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@enelesmai](https://github.com/enelesmai)
+- Twitter: [@enelesmai](https://twitter.com/enelesmai)
+- Linkedin: [Selene Flores](https://linkedin.com/in/xochitlselene)
 
 ## 🤝 Contributing
 
