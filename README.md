@@ -2,9 +2,7 @@
 
 > An example of Gearbox FSM usage.
 
-![screenshot](./app_screenshot.png)
-
-  > Gearbox is a functional state machine with an easy-to-use API, inspired by both Fsm and Machinery
+    > Gearbox is a functional state machine with an easy-to-use API, inspired by both Fsm and Machinery
 
 * https://github.com/edisonywh/gearbox
 
