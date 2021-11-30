@@ -10,19 +10,15 @@
 
 Please, check tests for more details!
 
-The goal is to provide a fully working example based on docs and test from the library.
-
-The implementation is just for demonstration purpose without intention to be the only way of library usage.
-
 ## Built With
 
 - Elixir
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+The goal is to provide a fully working example based on docs and test from the library.
 
+The implementation is just for demonstration purpose without intention to be the only way of library usage.
 
 To get a local copy up and running follow these simple example steps.
 
@@ -33,10 +29,6 @@ To get a local copy up and running follow these simple example steps.
 ### Install
 
 ### Usage
-
-### Run tests
-
-### Deployment
 
 
 
