@@ -1,6 +1,6 @@
-# Project Name
+# FSN Gearbox Example
 
-> One paragraph statement about the project.
+> An example of Gearbox FSM usage.
 
 ![screenshot](./app_screenshot.png)
 
@@ -42,12 +42,6 @@ To get a local copy up and running follow these simple example steps.
 ## Authors
 
 👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
 
 - Github: [@githubhandle](https://github.com/githubhandle)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
