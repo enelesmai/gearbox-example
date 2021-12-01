@@ -12,4 +12,9 @@ defmodule ProcessMachine do
     "selfie" => ~w(video),
     "video" => ~w(completed)
   }
+
+  #prevents changing from signed to identification (test)
+  def guard_transition(struct, "signed", "identification") do
+    {:halt, "You have been snapped."}
+  end
 end

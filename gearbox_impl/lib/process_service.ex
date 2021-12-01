@@ -3,8 +3,8 @@ defmodule ProcessService do
   alias ProcessMachine
   alias Clients.Repo
 
-  def init_process do
-    %Clients.Client{name: "selene",status: "pending"}
+  def init_process(name) do
+    %Clients.Client{name: name, status: "pending"}
     |> Repo.insert!
   end
 
@@ -15,8 +15,7 @@ defmodule ProcessService do
     do
       Repo.update(changeset)
     else
-      {:error, changeset} ->
-        #handle error here
+      {:error, changeset} -> {:error, changeset}
     end
   end
 
@@ -27,13 +26,19 @@ defmodule ProcessService do
     do
       Repo.update(changeset)
     else
-      {:error, changeset} ->
-        #handle error here
+      {:error, changeset} -> {:error, changeset}
     end
   end
 
-  def guard_transition(struct, _from, _to) do
-    {:halt, "You have been snapped."}
+  def identify(client) do
+    with {:ok, changeset} <-
+      client
+      |> Gearbox.Ecto.transition_changeset(ProcessMachine, "identification")
+      do
+        Repo.update(changeset)
+      else
+        {:error, changeset} -> {:error, changeset}
+      end
   end
 
   def current(id) do
